@@ -1,0 +1,31 @@
+# Environment & Secrets (NEVER COMMIT)
+.env
+*.env
+client_secrets*.json
+token*.json
+*.pem
+*.key
+
+# Python cache & virtualenvs
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Media & Database (Large assets, local database)
+bot.db
+output/
+assets/broll_videos/
+assets/broll/
+temp/
+logs/
+*.mp3
+*.mp4
+*.wav
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
